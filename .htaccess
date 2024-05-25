@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^class/getAll$ index.php [L]
+RewriteRule ^class/add$ index.php [L]
+RewriteRule ^class/update/([A-Za-z0-9]+)$ index.php [L]
+RewriteRule ^class/([A-Za-z0-9]+)$ index.php [L]
